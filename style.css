@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fbeaeb;
+    text-align: center;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+h1{
+    text-decoration: overline;
+    font-size: 1cm;
+    text-shadow: 5px 8px 12px black;
+    padding-top: 15px;
+}
+
+a>button{
+    width: 1cm;
+    margin-right: 18px;
+    height: 1.5cm;
+    float: right;
+    font-size: 1cm;
+}
+
+a>button:hover{
+    width: 1cm;
+    height: 1.5cm;
+}
+
+#logout{
+    float: left;
+    width: 2.5cm;
+    height: 1cm;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.container{
+    background-color: rgba(20, 21, 22, 0.644);
+    box-shadow: 25px 25px 25px black;
+    width: 60%;
+    margin: auto;
+    margin-top: 0.5cm;
+    border: solid 3px black;
+}
+
+#editForm{
+    display:none;
+}
+
+.myTable{
+    color: black;
+}
+
+input[type="search"]{
+    color: rgb(16, 248, 198);
+    cursor: text;
+}
+
+input[type="search"]:hover{
+    color: rgb(0,0,0);
+    cursor: pointer;
+}
+
+.box{
+    color: hsla(49, 85%, 55%, 0.603);
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}  
+
+#myTable{
+    color: black;
+}
+
+input, textarea{
+    background-color:  #1d1b1b88;
+    color: rgb(250, 200, 150);
+    border: solid 2px black;
+    width: 95%;
+    height: 1cm;
+    text-indent: 5px;
+    font-size: 20px;
+    cursor: text;
+}
+
+::placeholder{
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    text-shadow: -5px 8px 12px black;
+}
+
+textarea{
+    height: 2cm;
+}
+
+button{
+    background-color:  #1d1b1bb4;
+    color: #ffe67c;
+    height: 1cm;
+    width: 25%;
+    margin: auto;
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: candara;
+    font-size: 0.5cm;
+    transition: 1.5s;
+	border-radius: 100px;
+}
+
+button:hover{
+    background-color: #ffe67c;
+    color: black ;
+    width: 26%;
+}
+
