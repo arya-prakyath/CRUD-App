@@ -47,7 +47,7 @@
 <body>
 
     <a href="index.php"><button title="Logout" id="logout">Logout</button></a>
-    <a href="#pageBottom" id='btmBtn'><button title="Goto the bottom of the page">&darr;</button></a>
+    <a href="#pageBottom" id="btmBtn"><button title="Goto the bottom of the page">&darr;</button></a>
 
     <!-- Create the form -->
     <div id="form" class='container'>
@@ -149,7 +149,7 @@
 
     <!-- Copy rights -->
     <hr style='border:3px solid  rgba(20, 21, 22, 0.644);'>
-    <a href="#form" id='tpBtn'><button title="Goto the top of the page">&uarr;</button></a>
+    <a href="#form" id="tpBtn"><button title="Goto the top of the page">&uarr;</button></a>
     <div id='pageBottom' style='background-color:#8dabca85; width:100%; height:2cm;'>
         <br>COPY RIGHTS &copy; THE_ARYA. ALL RIGHTS RESERVED - 2020.
     </div>
